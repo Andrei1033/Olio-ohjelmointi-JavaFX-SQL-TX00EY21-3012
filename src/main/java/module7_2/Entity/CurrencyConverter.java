@@ -5,12 +5,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class CurrencyConverter2 {
+public class CurrencyConverter {
     private Map<String, Double> exchangeRates;
     private Map<String, String> currencyNames;
     private CurrencyDao currencyDao;
 
-    public CurrencyConverter2() {
+    public CurrencyConverter() {
         this.exchangeRates = new HashMap<>();
         this.currencyNames = new HashMap<>();
         this.currencyDao = new CurrencyDao();

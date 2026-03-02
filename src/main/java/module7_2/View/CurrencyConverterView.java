@@ -10,14 +10,14 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import module7_2.Control.CurrencyConverterControl2;
+import module7_2.Control.CurrencyConverterControl;
 
-public class CurrencyConverterView2 extends Application {
-    private CurrencyConverterControl2 currencyConverterControl;
+public class CurrencyConverterView extends Application {
+    private CurrencyConverterControl currencyConverterControl;
 
     @Override
     public void start(Stage stage){
-        currencyConverterControl = new CurrencyConverterControl2();
+        currencyConverterControl = new CurrencyConverterControl();
 
         // --- Komponentit ---
         Label instructions = new Label("Enter amount, select currencies and press Convert.");

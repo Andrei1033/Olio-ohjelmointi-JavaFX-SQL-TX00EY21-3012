@@ -1,12 +1,12 @@
 package module7_2.Control;
 
-import module7_2.Entity.CurrencyConverter2;
+import module7_2.Entity.CurrencyConverter;
 
-public class CurrencyConverterControl2 {
-    private CurrencyConverter2 converter;
+public class CurrencyConverterControl {
+    private CurrencyConverter converter;
 
-    public CurrencyConverterControl2() {
-        converter = new CurrencyConverter2();
+    public CurrencyConverterControl() {
+        converter = new CurrencyConverter();
     }
 
     public String convert(String amountInput, String from, String to) {
