@@ -4,7 +4,7 @@ import module7_2.View.CurrencyConverterView;
 import module7_2.Datasource.MariaDbConnection;
 import module7_2.Dao.CurrencyDao;
 
-public class CurrencyMain2 {
+public class CurrencyMain {
     public static void main(String[] args) {
         MariaDbConnection.getConnection();
         CurrencyDao currencyDao = new CurrencyDao();
